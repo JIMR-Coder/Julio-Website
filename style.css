@@ -1,0 +1,88 @@
+.container-hero {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 0;
+    background-color:royalblue;
+    color: whitesmoke;
+}
+.container-mid {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+    gap: 1rem; /* Adds spacing between items */
+    flex-wrap: wrap; /* Allows wrapping for responsiveness */
+    margin-top: 20px; /* Keeps consistent spacing */
+}
+
+/* Styles for individual links */
+.container a {
+    display: inline-block; /* Keeps items inline and block for padding */
+    padding: 5px 10px; /* Adds padding inside the link */
+    background-color: #f0f0f0; /* Light gray background */
+    text-decoration: none; /* Removes underline */
+    border: 1px solid #ddd; /* Adds a border */
+    border-radius: 5px; /* Rounds corners */
+    transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.container a:hover {
+    background-color: #e0e0e0; /* Changes background on hover */
+}
+
+.center-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.center-style-nopad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem;
+}
+
+.left-style {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1 {
+    margin: 0; /* Removes both top and bottom margins */
+}
+
+.roboto-mono-100 {
+  font-family: "Roboto Mono", serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.circle-image {
+    width: 150px; /* Set the width of the image */
+    height: 150px; /* Set the height of the image */
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid whitesmoke; /* Adds a white border */
+    overflow: hidden; /* Ensures the content stays inside the circle */
+    object-fit: cover; /* Ensures the image scales properly */
+    padding: 0;
+    }
+
+.intro-text {
+    width: 30%;
+    margin: auto;
+}

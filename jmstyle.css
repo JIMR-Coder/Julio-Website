@@ -1,0 +1,73 @@
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.container a {
+    padding: 5px 10px; /* Optional: Adds padding around the links */
+    background-color: #f0f0f0; /* Optional: Background color for visibility */
+    text-decoration: none; /* Removes underline */
+    border: 1px solid #ddd; /* Optional: Adds a border */
+    border-radius: 5px; /* Optional: Rounds corners */
+}
+
+.container a:hover {
+    background-color: #e0e0e0; /* Changes background on hover */
+}
+
+.center-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.left-style {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+}
+
+h1 {
+  margin: 0; /* Removes both top and bottom margins */
+}
+
+.noto-sans-300 {
+    font-family: "Noto Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-stretch: expanded;
+}
+
+.red-hat-text-300 {
+  font-family: "Red Hat Text", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.main-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0;
+    background-color:royalblue;
+    color: whitesmoke;
+}
+
+.circle-image {
+    width: 150px; /* Set the width of the image */
+    height: 150px; /* Set the height of the image */
+    border-radius: 50%; /* Makes the image circular */
+    border: 5px solid whitesmoke; /* Adds a white border */
+    overflow: hidden; /* Ensures the content stays inside the circle */
+    object-fit: cover; /* Ensures the image scales properly */
+    padding-top: -1rem;
+    }
