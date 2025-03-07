@@ -45,6 +45,10 @@ h1 {
     font-stretch: expanded;
 }
 
+h2.noto-sans-300 {
+    font-size: 1.8rem; /* Adjust size as needed */
+}
+
 .red-hat-text-300 {
   font-family: "Red Hat Text", serif;
   font-optical-sizing: auto;
